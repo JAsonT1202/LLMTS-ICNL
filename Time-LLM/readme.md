@@ -57,7 +57,7 @@
 ---
 
 ## 結果
-Total parameters:     319,639,216
+Total parameters:     177,881,776
 
 Trainable parameters: 53,441,968
 
