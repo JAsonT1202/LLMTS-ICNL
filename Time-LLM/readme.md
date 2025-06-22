@@ -66,6 +66,9 @@
 
 2. 再現の結果 (GPT-2 (12))
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1aa62bf-ebde-4015-b397-9fa28d7cb789" alt="再現結果 GPT-2 (12)">
+</p>
 
 3. パラメータ数
 
