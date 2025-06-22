@@ -57,9 +57,24 @@
 ---
 
 ## 結果
-Total parameters:     177,881,776
 
-Trainable parameters: 53,441,968
+1. 論文の結果
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f09f9c38-e176-478a-858b-c7f0b28d3647" alt="スクリーンショット 2025-06-22 123924">
+</p>
+
+2. 再現の結果 (GPT-2 (12))
+
+
+3. パラメータ数
+
+| 項目                   | 数値           |
+| ---------------------- | -------------: |
+| Total parameters       | 177,881,776    |
+| Trainable parameters   |  53,441,968    |
+
+
 
 
 ## 📥 参考
