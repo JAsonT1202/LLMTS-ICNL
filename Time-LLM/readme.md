@@ -56,6 +56,12 @@
 
 ---
 
+## 結果
+Total parameters:     319,639,216
+
+Trainable parameters: 53,441,968
+
+
 ## 📥 参考
 
 - GitHub リポジトリ:  
