@@ -48,4 +48,4 @@
 ## 📥 参考
 
 - GitHub リポジトリ:  
-[  https://github.com/KimMeen/Time-LLM.git](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All.git)
+https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All.git
