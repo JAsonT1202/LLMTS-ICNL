@@ -31,7 +31,10 @@
 
 
 2. ETTh1-336in-96out GPT-2 (6)の実験結果
-   
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/ce7aca53-b2ee-461f-8b14-b5d6574bb232" alt="image" />
+</p>
 
 
 
