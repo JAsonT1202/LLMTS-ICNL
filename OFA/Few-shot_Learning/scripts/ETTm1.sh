@@ -11,7 +11,7 @@ do
 python main.py \
     --root_path ./datasets/ETT-small/ \
     --data_path ETTm1.csv \
-    --model_id ETTm1_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id ETTm1_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
     --data ett_m \
     --seq_len $seq_len \
     --label_len 48 \
@@ -30,7 +30,7 @@ python main.py \
     --patch_size 16 \
     --stride 16 \
     --percent $percent \
-    --gpt_layer 6 \
+    --gpt_layers 6 \
     --itr 3 \
     --model $model \
     --cos 1 \

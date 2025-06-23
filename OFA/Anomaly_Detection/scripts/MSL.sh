@@ -10,7 +10,7 @@ python -u run.py \
   --features M \
   --seq_len 100 \
   --pred_len 0 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_model 768 \
   --d_ff 8 \
   --patch_size 1 \

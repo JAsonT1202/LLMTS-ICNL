@@ -29,7 +29,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layer 6 \
+    --gpt_layers 6 \
     --itr 1 \
     --model $model \
     --patch_size 2 \

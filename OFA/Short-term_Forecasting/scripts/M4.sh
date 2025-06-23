@@ -12,7 +12,7 @@ python -u run.py \
   --enc_in 1 \
   --dec_in 1 \
   --c_out 1 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_ff 128 \
   --d_model 128 \
   --patch_size 1 \
@@ -36,7 +36,7 @@ python -u run.py \
   --dec_in 1 \
   --c_out 1 \
   --ln 1 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_model 768 \
   --d_ff 32 \
   --patch_size 1 \
@@ -59,7 +59,7 @@ python -u run.py \
   --enc_in 1 \
   --dec_in 1 \
   --c_out 1 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_model 768 \
   --patch_size 1 \
   --stride 1 \
@@ -82,7 +82,7 @@ python -u run.py \
   --enc_in 1 \
   --dec_in 1 \
   --c_out 1 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_model 768 \
   --d_ff 128 \
   --patch_size 1 \
@@ -105,7 +105,7 @@ python -u run.py \
   --enc_in 1 \
   --dec_in 1 \
   --c_out 1 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_model 768 \
   --d_ff 128 \
   --patch_size 1 \
@@ -128,7 +128,7 @@ python -u run.py \
   --enc_in 1 \
   --dec_in 1 \
   --c_out 1 \
-  --gpt_layer 6 \
+  --gpt_layers 6 \
   --d_model 768 \
   --d_ff 128 \
   --patch_size 1 \

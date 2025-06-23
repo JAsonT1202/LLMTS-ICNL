@@ -14,7 +14,7 @@ do
 python main.py \
     --root_path ./datasets/ETT-small/ \
     --data_path ETTh1.csv \
-    --model_id ETTh1_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id ETTh1_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
     --data ett_h \
     --seq_len $seq_len \
     --label_len 168 \
@@ -34,7 +34,7 @@ python main.py \
     --patch_size 16 \
     --stride 8 \
     --percent $percent \
-    --gpt_layer 6 \
+    --gpt_layers 6 \
     --itr 3 \
     --model $model \
     --tmax 20 \

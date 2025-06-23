@@ -9,7 +9,7 @@ do
 python main.py \
     --root_path ./datasets/traffic/ \
     --data_path traffic.csv \
-    --model_id traffic_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id traffic_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
     --data custom \
     --seq_len $seq_len \
     --label_len 48 \
@@ -26,7 +26,7 @@ python main.py \
     --stride 8 \
     --all 1 \
     --percent $percent \
-    --gpt_layer 6 \
+    --gpt_layers 6 \
     --itr 3 \
     --model $model \
     --patience 3 \
