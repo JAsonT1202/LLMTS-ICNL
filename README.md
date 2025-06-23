@@ -64,3 +64,39 @@
 - [ ] **LLMTime** Large Language Models Are Zero-Shot Time Series Forecasters [[NeurIPS 2023]](https://arxiv.org/abs/2310.07820) [[Code]](https://github.com/ngruver/llmtime.git)
 
 - [ ] **Lag-Llama** Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting [[NeurIPS 2023 Workshop]](https://ar5iv.labs.arxiv.org/html/2310.08278) [[Code]](https://github.com/time-series-foundation-models/lag-llama.git)
+
+## Tips
+1. **Accelerate の初期設定**  
+   以下の質問には矢印キーで選択し、Enter キーで確定してください。  
+   特に最後の混合精度では **`bf16`** を選択してください。
+
+   ```
+   In which compute environment are you running?
+   ➔ This machine
+     AWS (Amazon SageMaker)
+
+   Which type of machine are you using?
+     No distributed training
+     multi-CPU
+   ➔ multi-GPU
+     TPU
+     MPS
+
+   How many different machines will you use (use more than 1 for multi-node training)? [1]: 1
+
+   Do you wish to optimize your script with torch dynamo? [yes/NO]: NO
+   Do you want to use DeepSpeed? [yes/NO]: NO
+   Do you want to use FullyShardedDataParallel? [yes/NO]: NO
+   Do you want to use Megatron-LM? [yes/NO]: NO
+
+   How many GPU(s) should be used for distributed training? [1]: 2
+   What GPU(s) (by id) should be used for training on this machine as a comma-separated list? [all]: 0,1
+
+   Do you wish to use FP16 or BF16 (mixed precision)?
+     no
+     fp16
+   ➔ bf16
+
+   Accelerate configuration saved at ~/.cache/huggingface/accelerate/default_config.yaml
+   ```
+
