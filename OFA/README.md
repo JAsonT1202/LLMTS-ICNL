@@ -23,12 +23,19 @@
 ---
 
 ## 結果
-1. ETTh1-512in-96out GPT-2 (6)の実験結果
+1. 論文の結果
+   
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6964d6f-fe3c-494d-b047-9189f6911b5e" alt="image" />
+</p>
+
+
+2. ETTh1-336in-96out GPT-2 (6)の実験結果
    
 
 
 
-2. パラメータ数
+3. パラメータ数(512in)
 
 | 項目                   | 数値           |
 | ---------------------- | -------------: |
