@@ -12,7 +12,7 @@ python -u run.py \
   --pred_len 0 \
   --d_model 768 \
   --d_ff 768 \
-  --gpt_layers 6 \
+  --gpt_layer 6 \
   --enc_in 38 \
   --c_out 38 \
   --anomaly_ratio 0.5 \

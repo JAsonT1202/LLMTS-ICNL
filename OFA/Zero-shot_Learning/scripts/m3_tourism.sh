@@ -14,7 +14,7 @@ python main_test.py \
     --test_root_path ./datasets/tourism/ \
     --data_path m3_yearly_dataset.tsf \
     --test_data_path tourism_yearly_dataset.tsf \
-    --model_id tourismYearly_$source_data'_'$model'_'$gpt_layers'_lr'$lr'_decay'$decay'_dropout'$dropout'_epoch'$epoch'_percent'$percent \
+    --model_id tourismYearly_$source_data'_'$model'_'$gpt_layer'_lr'$lr'_decay'$decay'_dropout'$dropout'_epoch'$epoch'_percent'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -32,7 +32,7 @@ python main_test.py \
     --loss_func mape \
     --dropout 0 \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --patch_size 1 \
@@ -54,7 +54,7 @@ python main_test.py \
     --test_root_path ./datasets/tourism/ \
     --data_path m3_quarterly_dataset.tsf \
     --test_data_path tourism_quarterly_dataset.tsf \
-    --model_id tourismQuarterly_$source_data'_'$model'_'$gpt_layers'_lr'$lr'_percent'$percent'_batch'$batch_size \
+    --model_id tourismQuarterly_$source_data'_'$model'_'$gpt_layer'_lr'$lr'_percent'$percent'_batch'$batch_size \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -71,7 +71,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func mape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \
@@ -95,7 +95,7 @@ python main_test.py \
     --test_root_path ./datasets/tourism/ \
     --data_path m3_monthly_dataset.tsf \
     --test_data_path tourism_monthly_dataset.tsf \
-    --model_id tourismMonthly_$source_data'_'$model'_'$gpt_layers'_lr'$lr'_percent'$percent'_batch'$batch_size \
+    --model_id tourismMonthly_$source_data'_'$model'_'$gpt_layer'_lr'$lr'_percent'$percent'_batch'$batch_size \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -112,7 +112,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func mape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \

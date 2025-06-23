@@ -12,7 +12,7 @@ python main_test.py \
     --test_root_path ./datasets/m4/ \
     --data_path m3_quarterly_dataset.tsf \
     --test_data_path m4_quarterly_dataset.tsf \
-    --model_id m3Quarterly_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id m3Quarterly_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -29,7 +29,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \
@@ -51,7 +51,7 @@ python main_test.py \
     --test_root_path ./datasets/m4/ \
     --data_path m3_monthly_dataset.tsf \
     --test_data_path m4_monthly_dataset.tsf \
-    --model_id m3Monthly_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id m3Monthly_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -68,7 +68,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \
@@ -91,7 +91,7 @@ python main_test.py \
     --test_root_path ./datasets/m4/ \
     --data_path m3_yearly_dataset.tsf \
     --test_data_path m4_yearly_dataset.tsf \
-    --model_id m3Yearly_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id m3Yearly_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -108,7 +108,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \
@@ -129,7 +129,7 @@ python main_test.py \
     --test_root_path ./datasets/m4/ \
     --data_path m3_monthly_dataset.tsf \
     --test_data_path m4_weekly_dataset.tsf \
-    --model_id m3Monthly_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id m3Monthly_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -146,7 +146,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \
@@ -167,7 +167,7 @@ python main_test.py \
     --test_root_path ./datasets/m4/ \
     --data_path m3_monthly_dataset.tsf \
     --test_data_path m4_daily_dataset.tsf \
-    --model_id m3Monthly_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id m3Monthly_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -184,7 +184,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout 0 \
@@ -205,7 +205,7 @@ python main_test.py \
     --test_root_path ./datasets/m4/ \
     --data_path m3_other_dataset.tsf \
     --test_data_path m4_hourly_dataset.tsf \
-    --model_id m3Monthly_$model'_'$gpt_layers'_'$seq_len'_'$pred_len'_'$percent \
+    --model_id m3Monthly_$model'_'$gpt_layer'_'$seq_len'_'$pred_len'_'$percent \
     --data tsf_data \
     --seq_len $seq_len \
     --pred_len $pred_len \
@@ -222,7 +222,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --percent 100 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --dropout $dropout \

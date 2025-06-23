@@ -1,14 +1,10 @@
-
-export CUDA_VISIBLE_DEVICES=0,1
+export CUDA_VISIBLE_DEVICES=1
 
 seq_len=512
 model=GPT4TS
 
 
-accelerate launch \
-  --num_processes 2 \
-  --mixed_precision fp16 \
-  main.py \
+python main.py \
     --root_path ./datasets/ETT-small/ \
     --data_path ETTh1.csv \
     --model_id ETTh1_512_96 \
@@ -31,7 +27,7 @@ accelerate launch \
     --patch_size 16 \
     --stride 8 \
     --percent 100 \
-    --gpt_layers 12 \
+    --gpt_layers 6 \
     --itr 1 \
     --model $model \
     --tmax 20 \

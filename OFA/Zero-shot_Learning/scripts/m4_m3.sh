@@ -27,7 +27,7 @@ python main_test.py \
     --d_ff 512 \
     --loss_func smape \
     --dropout 0 \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --patch_size 1 \
@@ -61,7 +61,7 @@ python main_test.py \
     --n_heads 16 \
     --d_ff 512 \
     --loss_func mape \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --patch_size 1 \
@@ -95,7 +95,7 @@ python main_test.py \
     --n_heads 16 \
     --d_ff 512 \
     --loss_func mape \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --patch_size 2 \
@@ -129,7 +129,7 @@ python main_test.py \
     --n_heads 16 \
     --d_ff 512 \
     --loss_func mape \
-    --gpt_layers 6 \
+    --gpt_layer 6 \
     --itr 1 \
     --model $model \
     --patch_size 2 \
