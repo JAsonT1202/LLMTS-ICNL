@@ -15,10 +15,11 @@
 
 ## ⚠️ 注意事項
 
-1. **PyTorch のインストール**  
+1. **PyTorch 1.8.1のインストール**  
    ```bash
-
+   conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2 -c pytorch
    ```
+2. **マルチGPUへの対応不可**
 ---
 
 ## 結果
@@ -31,8 +32,8 @@
 
 | 項目                   | 数値           |
 | ---------------------- | -------------: |
-| Total parameters       |     |
-| Trainable parameters   |   |
+| Total parameters       | 86,644,320    |
+| Trainable parameters   |  5,538,144 |
 
 
 
