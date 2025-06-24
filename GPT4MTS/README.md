@@ -20,7 +20,7 @@
    ```
 2. **マルチGPUへの対応不可**
 3. **Python3.8が必要**
----
+4. **conda: gpt4mts**
 
 ## 結果
 1. デモ実験結果
@@ -35,3 +35,4 @@
 ## 📥 参考
 
 - GitHub リポジトリ:  
+https://github.com/Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting.git
