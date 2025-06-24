@@ -20,6 +20,7 @@
    conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2 -c pytorch
    ```
 2. **マルチGPUへの対応不可**
+3. **conda: ofa**
 ---
 
 ## 結果
