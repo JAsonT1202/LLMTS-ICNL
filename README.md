@@ -14,7 +14,7 @@
 
 - [x] **Time-LLM** Time-LLM: Time Series Forecasting by Reprogramming Large Language Models [[ICLR 2024]](https://arxiv.org/abs/2310.01728) [[Code]](https://github.com/KimMeen/Time-LLM.git)
 
-- [ ] **GPT4MTS** Prompt-based Large Language Model for Multimodal Time-Series Forecasting [[AAAI 2024]](https://ojs.aaai.org/index.php/AAAI/article/view/30383) [[Code]](https://github.com/Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting.git)
+- [x] **GPT4MTS** Prompt-based Large Language Model for Multimodal Time-Series Forecasting [[AAAI 2024]](https://ojs.aaai.org/index.php/AAAI/article/view/30383) [[Code]](https://github.com/Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting.git)
 
 ##  🧪 これから
 
