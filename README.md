@@ -16,11 +16,11 @@
 
 - [x] **GPT4MTS** Prompt-based Large Language Model for Multimodal Time-Series Forecasting [[AAAI 2024]](https://ojs.aaai.org/index.php/AAAI/article/view/30383) [[Code]](https://github.com/Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting.git)
 
+- [ ] **TimeCMA** TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment [[AAAI 2025]](https://arxiv.org/abs/2406.01638) [[Code]](https://github.com/ChenxiLiu-HNU/TimeCMA.git)
+
 ##  🧪 これから
 
 - [ ] **LLM4TS** LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters [[ACM TIST 2025]](https://arxiv.org/abs/2308.08469) [[Code]](https://github.com/blacksnail789521/LLM4TS.git)
-
-- [ ] **TimeCMA** TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment [[AAAI 2025]](https://arxiv.org/abs/2406.01638) [[Code]](https://github.com/ChenxiLiu-HNU/TimeCMA.git)
 
 - [ ] **ChatTime** ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data [[AAAI 2025]](https://arxiv.org/abs/2412.11376) [[Code]](https://github.com/ForestsKing/ChatTime.git)
 
