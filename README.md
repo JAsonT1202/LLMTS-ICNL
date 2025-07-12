@@ -20,7 +20,7 @@
 
 - [x] **LLM4TS** LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters [[ACM TIST 2025]](https://arxiv.org/abs/2308.08469) [[Code]](https://github.com/blacksnail789521/LLM4TS.git)
 
-- [ ] **UniTime** UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [[WWW 2024]](https://arxiv.org/abs/2310.09751) [[Code]](https://github.com/liuxu77/UniTime.git)
+- [x] **UniTime** UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [[WWW 2024]](https://arxiv.org/abs/2310.09751) [[Code]](https://github.com/liuxu77/UniTime.git)
 
 ##  🧪 これから
 
