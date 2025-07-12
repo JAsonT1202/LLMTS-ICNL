@@ -20,6 +20,8 @@
 
 - [x] **LLM4TS** LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters [[ACM TIST 2025]](https://arxiv.org/abs/2308.08469) [[Code]](https://github.com/blacksnail789521/LLM4TS.git)
 
+- [ ] **UniTime** UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [[WWW 2024]](https://arxiv.org/abs/2310.09751) [[Code]](https://github.com/liuxu77/UniTime.git)
+
 ##  🧪 これから
 
 
@@ -30,8 +32,6 @@
 - [ ] **Time-MoE** Time-MoE: Billion-Scale Time Series Foundation Models With Mixture Of Experts [[ICLR 2025]](https://arxiv.org/abs/2409.16040) [[Code]](https://github.com/Time-MoE/Time-MoE.git)
 
 - [ ] **ICTSP** In-context Time Series Predictor [[ICLR 2025]](https://arxiv.org/abs/2403.18447) [[Code]](https://github.com/LJC-FVNR/In-context-Time-Series-Predictor.git)
-
-- [ ] **UniTime** UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [[WWW 2024]](https://arxiv.org/abs/2310.09751) [[Code]](https://github.com/liuxu77/UniTime.git)
 
 - [ ] **Chronos** Chronos: Learning the Language of Time Series [[TMLR 2024]](https://arxiv.org/abs/2403.07815) [[Code]](https://github.com/amazon-science/chronos-forecasting.git)
 
